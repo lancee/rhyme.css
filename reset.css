@@ -1,0 +1,126 @@
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, code,
+dl, dt, dd, ol, ul, li,
+input, textarea, button, hr,
+fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, dialog, footer, header, hgroup, menu, nav, section, details, summary, time, mark, audio, video {
+  padding: 0;
+  margin: 0;
+}
+
+article, aside, details, figure, figcaption, dialog, hgroup, footer, header, nav, section {
+  display: block;
+  position: relative;
+}
+
+canvas, audio, video {
+  display: inline-block;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+caption, th {
+  text-align: left;
+}
+
+button, label {
+  cursor: pointer;
+}
+
+button, fieldset {
+  border: none;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+  resize: vertical;
+  overflow: auto;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+img::selection {
+  background: transparent;
+}
+
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img, fieldset {
+  border: 0;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+[contenteditable] {
+
+}
+
+[contenteditable]:focus {
+  
+}
+
+a {
+  cursor: pointer;
+  outline: none;
+}
+
+a:link {
+  color: #00B9E9;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #00B9E9;
+}
+
+a:hover {
+  color: #00B9E9;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body, button, input, select, textarea {
+  font: 14px/1.5 'Helvetica Neue', Arial, Verdana, sans-serif;
+  color: #000;
+}
