@@ -1,26 +1,19 @@
-.clearfix {
-  zoom: 1;
-}
+/*
+ * Rhyme css v 0.2
+ *
+ * Copyright (c) 2011 ~ 2016, lancee LY
+ *
+ * http://xrhy.me/
+ *
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
 
-.clearfix:after {
-  clear: both;
-  content: '';
-  display: table;
-}
-
-.invisible {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-.hidden {
-  display: none;  
-}
-
-[hidden] {
-  display: none;
-  visibility: hidden;
+.transition {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .resizable {
@@ -28,21 +21,13 @@
   overflow: auto;
 }
 
-.transition {
-  -webkit-transition: all .25s ease-in-out;
-  -moz-transition: all .25s ease-in-out;
-  -o-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
-
 .rotates-antialiased {
   box-shadow: 0 0 1px transparent;
 }
 
 .ellipsis {
-  white-space: nowrap;
-  width: 100%;
   overflow: hidden;
+  white-space: nowrap;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
@@ -84,4 +69,54 @@ hr.clear {
 .stitch {
   outline: 1px dashed #98abb9;
   outline-offset: -5px;
+}
+
+.pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
 }

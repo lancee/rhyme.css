@@ -1,3 +1,13 @@
+/*
+ * Rhyme css v 0.2
+ *
+ * Copyright (c) 2011 ~ 2016, lancee LY
+ *
+ * http://xrhy.me/
+ *
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
+
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -77,11 +87,8 @@ mark {
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  white-space: pre-line;
   word-wrap: break-word;
 }
-
-// #TODO p::first-letter & p::first-line
 
 *[dir="ltr"] {
   direction: ltr;
@@ -102,5 +109,3 @@ bdo[dir="rtl"] {
   direction: rtl;
   unicode-bidi: bidi-override;
 }
-
-// #TODO ruby

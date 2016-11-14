@@ -1,3 +1,13 @@
+/*
+ * Rhyme css v 0.2
+ *
+ * Copyright (c) 2011 ~ 2016, lancee LY
+ *
+ * http://xrhy.me/
+ *
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
+
 html, body,
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, code,
@@ -79,39 +89,16 @@ ol, ul, li {
   list-style: none;
 }
 
-[contenteditable] {
-
-}
-
-[contenteditable]:focus {
-  
-}
-
 a {
   cursor: pointer;
-  outline: none;
 }
 
 a:link {
-  color: #111;
   text-decoration: none;
 }
 
-a:active {
-  color: #eee;
-}
-
-a:visited {
-  color: #777;
-}
-
 a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: thin dotted;
+  text-decoration: none;
 }
 
 ::-moz-focus-inner {
@@ -125,6 +112,6 @@ html {
 }
 
 body, button, input, select, textarea {
-  font: 14px/1.5 'Helvetica Neue', Arial, Verdana, sans-serif;
+  font: 1.4rem/1.5 'Helvetica Neue', Arial, Verdana, sans-serif;
   color: #000;
 }
